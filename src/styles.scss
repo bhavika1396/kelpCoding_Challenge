@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+
+*{
+    font-family: "nunito sans";
+}
+$black1: #2D2D2D;
+$white:#FFFFFF;
+$white1:#F3F3F3;
+$grey1:#8A8A8A;
+
+
+.font-style{
+    font-style: normal;
+}
+.fontsize-12{
+    font-size: 12px;
+}
+.fontsize-14{
+    font-size: 14px;
+}
+.fontsize-16{
+    font-size: 16px;
+}
+.fontsize-18{
+    font-size: 18px;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-900{
+    font-weight: 900;
+}
+.font-black1{
+    color: $black1;
+}
+.font-grey1{
+    color: $grey1;
+}
+.font-white{
+    color: $white;
+}
+.bg-white{
+    background: $white;
+}
+.whiteSpaceNoWrap{
+    white-space: nowrap !important; 
+}
+.textUpperCase{
+    text-transform: uppercase;
+}
